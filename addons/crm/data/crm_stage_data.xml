@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- additional stage -->
+    <record model="crm.stage" id="stage_lead1">
+        <field name="name">LG Prospects</field>
+        <field name="sequence">1</field>
+    </record>
+
+    <!-- archieved -->
+    <record model="crm.stage" id="stage_lead2">
+        <field name="name">Future Interest (Warm Lead)</field>
+        <field name="sequence">2</field>
+    </record>
+    <record model="crm.stage" id="stage_lead3">
+        <field name="name">Opportunity (Medium Prospect)</field>
+        <field name="sequence">3</field>
+    </record>
+    <record model="crm.stage" id="stage_lead4">
+        <field name="name">Hot Prospect</field>
+        <field name="sequence">4</field>
+    </record>
+
+    <record model="crm.stage" id="stage_lead5">
+        <field name="name">LG Booked Presentations</field>
+        <field name="sequence">4</field>
+    </record>
+    <record model="crm.stage" id="stage_lead13">
+        <field name="name">LG Shows</field>
+        <field name="sequence">5</field>
+    </record>
+    <record model="crm.stage" id="stage_lead6">
+        <field name="name">LG No Shows</field>
+        <field name="sequence">6</field>
+    </record>
+    <record model="crm.stage" id="stage_lead7">
+        <field name="name">LG Acquiring JD</field>
+        <field name="sequence">7</field>
+    </record>
+    <record model="crm.stage" id="stage_lead8">
+        <field name="name">Presenter Acquiring JD</field>
+        <field name="sequence">8</field>
+    </record>
+    <record model="crm.stage" id="stage_lead9">
+        <field name="name">Proposition</field>
+        <field name="sequence">9</field>
+    </record>
+    <record model="crm.stage" id="stage_lead10">
+        <field name="name">Closed Won</field>
+        <field name="fold" eval="False"/>
+        <field name="is_won">True</field>
+        <field name="sequence">10</field>
+    </record>
+    <record model="crm.stage" id="stage_lead11">
+        <field name="name">Marketing Re-Engagement</field>
+        <field name="sequence">11</field>
+    </record>
+    <record model="crm.stage" id="stage_lead14">
+        <field name="name">Presenter Mktg Re-Engagement</field>
+        <field name="sequence">12</field>
+    </record>
+    <record model="crm.stage" id="stage_lead15">
+        <field name="name">LG Mktg Re-Engagement</field>
+        <field name="sequence">13</field>
+    </record>
+    <record model="crm.stage" id="stage_lead12">
+        <field name="name">Closed Lost</field>
+        <field name="sequence">12</field>
+    </record>
+    <record model="crm.stage" id="stage_lead16">
+        <field name="name">Unqualified Prospects</field>
+        <field name="sequence">14</field>
+    </record>
+</odoo>
